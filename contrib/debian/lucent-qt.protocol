@@ -1,0 +1,11 @@
+[Protocol]
+exec=lucent-qt '%u'
+protocol=lucent
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

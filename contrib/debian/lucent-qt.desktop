@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lucent Core
+Comment=Lucent P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Lucent peer-to-peer Netzwerk
+Comment[fr]=Lucent, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Lucent, eşten eşe kriptografik sanal para birimi
+Exec=lucent-qt %u
+Terminal=false
+Type=Application
+Icon=lucent128
+MimeType=x-scheme-handler/lucent;
+Categories=Office;Finance;

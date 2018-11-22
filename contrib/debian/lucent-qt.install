@@ -1,0 +1,6 @@
+usr/local/bin/lucent-qt usr/bin
+share/pixmaps/lucent32.xpm usr/share/pixmaps
+share/pixmaps/lucent16.xpm usr/share/pixmaps
+share/pixmaps/lucent128.png usr/share/pixmaps
+debian/lucent-qt.desktop usr/share/applications
+debian/lucent-qt.protocol usr/share/kde4/services/

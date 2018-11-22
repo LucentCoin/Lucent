@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/lucent_bg.qm</file>
+        <file alias="de">locale/lucent_de.qm</file>
+        <file alias="en">locale/lucent_en.qm</file>
+        <file alias="es">locale/lucent_es.qm</file>
+        <file alias="fi">locale/lucent_fi.qm</file>
+        <file alias="fr">locale/lucent_fr.qm</file>
+        <file alias="it">locale/lucent_it.qm</file>
+        <file alias="ja">locale/lucent_ja.qm</file>
+        <file alias="nl">locale/lucent_nl.qm</file>
+        <file alias="pl">locale/lucent_pl.qm</file>
+        <file alias="pt">locale/lucent_pt.qm</file>
+        <file alias="ru">locale/lucent_ru.qm</file>
+        <file alias="sk">locale/lucent_sk.qm</file>
+        <file alias="sv">locale/lucent_sv.qm</file>
+        <file alias="vi">locale/lucent_vi.qm</file>
+        <file alias="zh_CN">locale/lucent_zh_CN.qm</file>
+        <file alias="zh_TW">locale/lucent_zh_TW.qm</file>
+    </qresource>
+</RCC>
