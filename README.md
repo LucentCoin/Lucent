@@ -3,8 +3,7 @@ Lucent Core staging tree 0.12.3
 
 `master:` [![Build Status](https://travis-ci.org/lucentpay/lucent.svg?branch=master)](https://travis-ci.org/lucentpay/lucent) `develop:` [![Build Status](https://travis-ci.org/lucentpay/lucent.svg?branch=develop)](https://travis-ci.org/lucentpay/lucent/branches)
 
-https://www.lucent.org
-
+https://lucentgold.com/
 
 What is Lucent?
 ----------------
@@ -16,7 +15,7 @@ are carried out collectively by the network. Lucent Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Lucent Core software, see https://www.lucent.org/get-lucent/.
+the Lucent Core software, see https://lucentgold.com/.
 
 
 License
@@ -66,7 +65,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[lucent Core's Transifex page](https://www.transifex.com/projects/p/lucent/).
+[lucent Core's Transifex page](https://lucentgold.com/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -74,4 +73,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also follow the [forum](https://www.lucent.org/forum/topic/lucent-worldwide-collaboration.88/).
+Translators should also follow the [forum](https://discord.gg/kYGqz8).
