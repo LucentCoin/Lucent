@@ -1,7 +1,7 @@
 Lucent Core 0.12.1
 =====================
 
-This is the official reference wallet for Lucent digital currency and comprises the backbone of the Lucent peer-to-peer network. You can [download Lucent Core](https://www.lucent.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Lucent digital currency and comprises the backbone of the Lucent peer-to-peer network. You can [download Lucent Core](https://github.com/LucentCoin/Lucent/releases) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -26,8 +26,7 @@ Drag Lucent-Qt to your applications folder, and then run Lucent-Qt.
 
 * See the [Lucent documentation](https://lucentpay.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [Lucent Nation Discord](http://lucentchat.org)
-* Ask for help on the [Lucent Forum](https://lucent.org/forum)
+* Ask for help on [Lucent Nation Discord](https://discord.gg/28Vbdeq)
 
 Building
 ---------------------
@@ -57,8 +56,7 @@ The Lucent Core repo's [root README](/README.md) contains relevant information o
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [Lucent Forum](https://lucent.org/forum), in the Development & Technical Discussion board.
-* Discuss on [Lucent Nation Discord](http://lucentchat.org)
+* Discuss on the [Lucent Nation Discord](https://discord.gg/28Vbdeq)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
