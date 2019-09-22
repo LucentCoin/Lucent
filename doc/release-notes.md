@@ -3,13 +3,13 @@ Lucent Core version 0.12.3.3
 
 Release is now available from:
 
-  <https://www.lucent.org/downloads/#wallets>
+  <https://www.github.com/LucentCoin/Lucent/releases>
 
 This is a critical bugfix release.
 
 Please report bugs using the issue tracker at github:
 
-  <https://github.com/lucentpay/lucent/issues>
+  <https://github.com/LucentCoin/Lucent/issues>
 
 
 Upgrading and downgrading
@@ -52,7 +52,7 @@ can cause node receiving a block to crash https://github.com/bitcoin/bitcoin/pul
 0.12.3.3 Change log
 ===================
 
-See detailed [set of changes](https://github.com/lucentpay/lucent/compare/v0.12.3.2...lucentpay:v0.12.3.3).
+See detailed [set of changes](https://github.com/LucentCoin/Lucent/compare/v0.12.3.2...lucentpay:v0.12.3.3).
 
 Credits
 =======
