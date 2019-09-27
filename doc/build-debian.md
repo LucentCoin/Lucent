@@ -76,4 +76,6 @@ If you plan to run a Lucent Masternode, you will need to install **Sentinel,** w
 16. Next, configure `masternode.conf` by running `nano masternode.conf`. Write in the following line:
   16. `[ALIAS] [IPv4 Address]:9916 [MASTERNODE PRIVATE KEY] [TRANSACTION ID] 1
   16. `CTRL+X` and save all your changes.
-17. 
+17. Run `lucentd --daemon` and wait for Lucent Core to sync up. You can check by running `lucent-cli mnsync status` and see if the status says "MASTERNODE_SYNC_FINISHED".
+18. Start your Masternode by running `lucent-cli masternode start-all` and run `lucent-cli masternode status`.
+19. You're all set! Make sure that your IPv4 address for port 9916 points to the device running the masternode, otherwise the network will be unable to connect to your masternode.
