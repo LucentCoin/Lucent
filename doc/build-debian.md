@@ -37,7 +37,7 @@ If the guide didn't ask you to read this part, feel free to ignore this section.
 ## Build Instructions ##
 1. Run `sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade` to ensure your system is up-to-date.
 2. If your system does not have the **unzip package** installed, you can install it by `sudo apt install unzip`
-3. Download the necessary build requirements by running `sudo apt-get install build-essential libtool autotools-dev automake pkg-config lbssl-dev libevent-dev bsdmainutils`
+3. Download the necessary build requirements by running `sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils`
 4. Run `wget https://github.com/LucentCoin/Lucent/archive/v0.12.3.3.zip && unzip v0.12.3.3.zip && rm v0.12.3.3.zip && cd Lucent-0.12.3.3` to download the release file, then unzip, remove the zip file, and enter the unzipped folder.
 5. Run `./autogen.sh` and wait for it to complete.
 6. Run `./configure --without-gui --with-incompatible-bdb`.
