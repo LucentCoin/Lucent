@@ -34,6 +34,7 @@ The following are developer notes on how to build Lucent Core on your native pla
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
+- [Debian Build Notes](build-debian.md)
 - [Windows Build Notes](build-windows.md)
 - [OpenBSD Build Notes](build-openbsd.md)
 - [Gitian Building Guide](gitian-building.md)
@@ -57,6 +58,7 @@ The Lucent Core repo's [root README](/README.md) contains relevant information o
 
 ### Resources
 * Discuss on the [Lucent Nation Discord](https://discord.gg/28Vbdeq)
+* Discuss on the [Official Bitcointalk Thread for Lucent](https://bitcointalk.org/index.php?topic=5131794.0)
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
