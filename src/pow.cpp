@@ -220,7 +220,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     else {
         return GetNextWorkRequiredBTC(pindexLast, pblock, params);
     }*/
-    return GetNextWorkRequiredBTC(pindexLast, pblock, params);
+    return DarkGravityWave(pindexLast, pblock, params);
 }
 
 // for DIFF_BTC only!
