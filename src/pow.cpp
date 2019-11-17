@@ -13,6 +13,7 @@
 
 #include <math.h>
 
+/* Not used.
 unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const Consensus::Params& params) {
     const CBlockIndex *BlockLastSolved = pindexLast;
     const CBlockIndex *BlockReading = pindexLast;
@@ -78,6 +79,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const Conse
 
     return bnNew.GetCompact();
 }
+*/
 
 unsigned int static DarkGravityWave(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params) {
     /* current difficulty formula, lucent - DarkGravity v3, written by Evan Duffield - evan@lucent.org */
@@ -220,7 +222,11 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     else {
         return GetNextWorkRequiredBTC(pindexLast, pblock, params);
     }*/
-    return DarkGravityWave(pindexLast, pblock, params);
+	if(pindexLast->nHeight + 1 >= params.nPowDGWHeight) {
+		return DarkGravityWave(pindexLast, pblock, params);
+	} else {
+		return GetNextWorkRequiredBTC(pindexLast, pblock, params);
+	}
 }
 
 // for DIFF_BTC only!
