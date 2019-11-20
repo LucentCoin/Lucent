@@ -174,6 +174,13 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nWindowSize = 4032;
         consensus.vDeployments[Consensus::DEPLOYMENT_BIP147].nThreshold = 3226; // 80% of 4032
 
+        // Deployment of PoW method DarkGravityWave
+        consensus.vDeployments[Consensus::DEPLOYMENT_DGW].bit = 3;
+      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nStartTime //Pending approval
+      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nTimeOut
+      consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nWindowSize = 4032;
+      consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nThreshold = 3226;
+
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000000000007bc"); // 888900
 
@@ -399,7 +406,7 @@ public:
             ( 143200, uint256S("0x0000000004a7878409189b7a8f75b3815d9b8c45ee8f79955a6c727d83bddb04"))*/
         };
 
-        chainTxData = ChainTxData{        
+        chainTxData = ChainTxData{
             1529294335, // * UNIX timestamp of last known number of transactions
             5810120,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
