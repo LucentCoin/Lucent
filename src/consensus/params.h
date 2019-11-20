@@ -19,7 +19,7 @@ enum DeploymentPos
     DEPLOYMENT_DIP0001, // Deployment of DIP0001 and lower transaction fees.
     DEPLOYMENT_BIP147, // Deployment of BIP147 (NULLDUMMY)
     // NOTE: Also add new deployments to VersionBitsDeploymentInfo in versionbits.cpp
-    MAX_VERSION_BITS_DEPLOYMENTS
+    MAX_VERSION_BITS_DEPLOYMENTS,
     DEPLOYMENT_DGW //Deployment of PoW method DarkGravityWave
 };
 
