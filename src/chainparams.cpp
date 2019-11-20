@@ -149,6 +149,7 @@ public:
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 15200;
         consensus.nPowDGWHeight = 34140;
+        consensus.nDGWUpgradeHeight = 2147483647; //TEMPORARY!!! WAITING FOR APPROVAL
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
         consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
@@ -176,10 +177,10 @@ public:
 
         // Deployment of PoW method DarkGravityWave
         consensus.vDeployments[Consensus::DEPLOYMENT_DGW].bit = 3;
-      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nStartTime //Pending approval
-      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nTimeOut
-      consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nWindowSize = 4032;
-      consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nThreshold = 3226;
+      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nStartTime =  //Pending approval
+      //  consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nTimeOut =
+        consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nWindowSize = 4032;
+      	consensus.vDeployments[Consensus::DEPLOYMENT_DGW].nThreshold = 3226;
 
         // The best chain should have at least this much work.
         consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000000000007bc"); // 888900
