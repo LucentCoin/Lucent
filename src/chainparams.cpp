@@ -148,8 +148,8 @@ public:
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.fPowNoRetargeting = false;
         consensus.nPowKGWHeight = 15200;
-        consensus.nPowDGWHeight = 34140;
-        consensus.nDGWUpgradeHeight = 2147483647; //TEMPORARY!!! WAITING FOR APPROVAL
+        consensus.nPowDGWHeight = 2147483647; //TEMPORARY !!! WAITING FOR APPROVAL
+        //consensus.nDGWUpgradeHeight = 2147483647; //Probably redundant...
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
         consensus.nMinerConfirmationWindow = 2016; // nPowTargetTimespan / nPowTargetSpacing
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
