@@ -1,8 +1,6 @@
 Lucent Core Staging Tree v0.13.0.0
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/AlphaSerpentis/Lucent.svg?branch=master)](https://travis-ci.org/AlphaSerpentis/Lucent) `develop:` [![Build Status](https://travis-ci.org/AlphaSerpentis/Lucent.svg?branch=develop)](https://travis-ci.org/AlphaSerpentis/Lucent/branches)
-
 https://lucentgold.com/
 
 What is Lucent?
