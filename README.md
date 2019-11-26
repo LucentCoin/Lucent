@@ -1,7 +1,7 @@
-Lucent Core staging tree 0.12.3
+Lucent Core Staging Tree v0.13.0.0
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/lucentpay/lucent.svg?branch=master)](https://travis-ci.org/lucentpay/lucent) `develop:` [![Build Status](https://travis-ci.org/lucentpay/lucent.svg?branch=develop)](https://travis-ci.org/lucentpay/lucent/branches)
+`master:` [![Build Status](https://travis-ci.org/AlphaSerpentis/Lucent.svg?branch=master)](https://travis-ci.org/AlphaSerpentis/Lucent) `develop:` [![Build Status](https://travis-ci.org/AlphaSerpentis/Lucent.svg?branch=develop)](https://travis-ci.org/AlphaSerpentis/Lucent/branches)
 
 https://lucentgold.com/
 
